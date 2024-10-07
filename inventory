@@ -1,0 +1,13 @@
+[web_servers]
+#Server 1 and 2
+192.168.56.116
+192.168.56.115
+192.168.56.119 ansible_user=cchavez
+
+[db_servers]
+#CentOS 7 with GUI
+192.168.56.119 ansible_user=cchavez
+
+[file_servers]
+#Server 3
+192.168.56.120
